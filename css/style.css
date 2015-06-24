@@ -101,6 +101,12 @@ article header h1{
 	text-align: right;
 	margin-right: -10px;
 }
+
+.thelast{
+	background-color: "#fff";
+	margin-bottom: 40px;
+}
+
 article img{
 	width: 300px;
 	/*float: right;*/

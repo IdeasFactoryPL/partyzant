@@ -23,7 +23,7 @@ ul#sprzet {
 	padding: 10px 10px 10px 10px;
 	transition: all 0.5s;
 }
-ul li:hover #sprzet {
+#instrukcja:hover + #sprzet {
     visibility:visible;
 }
 
@@ -32,6 +32,24 @@ ul#sprzet li{
 	display: block;
 }
 
+ul#instrukcje {
+    position: absolute;
+    top: -300px;
+    width: 125px;
+    visibility: hidden;
+    margin-left: 302px;
+    background-color: black;
+    padding: 10px 10px 10px 10px;
+    transition: all 0.5s;
+}
+#instrukcja:hover + #instrukcje{
+    visibility: visible;
+}
+
+ul#instrukcje li{
+    padding-right: 0px;
+    display: block;
+}
 nav ul li ul li{
 	border-right: none;
 	margin-left: 0;

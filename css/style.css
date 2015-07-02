@@ -15,26 +15,7 @@ body {
 }
 
 ul#sprzet {
-	position: absolute;
-	width: 125px;
-	visibility: hidden;
-	margin-left: 302px;
-	background-color: black;
-	padding: 10px 10px 10px 10px;
-	transition: all 0.5s;
-}
-#instrukcja:hover + #sprzet {
-    visibility:visible;
-}
-
-ul#sprzet li{
-	padding-right: 0px;
-	display: block;
-}
-
-ul#instrukcje {
     position: absolute;
-    top: -300px;
     width: 125px;
     visibility: hidden;
     margin-left: 302px;
@@ -42,14 +23,51 @@ ul#instrukcje {
     padding: 10px 10px 10px 10px;
     transition: all 0.5s;
 }
+ul li:hover #sprzet {
+    visibility:visible;
+}
+
+ul#sprzet li{
+    padding-right: 0px;
+    display: block;
+}
+
+ul#instrukcje {
+    margin-top: -90px;
+    width: 145px;
+    visibility: hidden;
+    margin-right: 16px;
+    margin-left: auto;
+    background-color: black;
+    padding: 10px 10px 10px 10px;
+    transition: all 0.5s;
+    text-align: right;
+}
 #instrukcja:hover + #instrukcje{
+    visibility: visible;
+}
+
+#instrukcje:hover{
     visibility: visible;
 }
 
 ul#instrukcje li{
     padding-right: 0px;
     display: block;
+    margin-bottom: 4px;
 }
+
+ul#instrukcje a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    transition: color 0.5s;
+}
+
+ul#instrukcje a:hover {
+    color: #da0000;
+}
+
 nav ul li ul li{
 	border-right: none;
 	margin-left: 0;

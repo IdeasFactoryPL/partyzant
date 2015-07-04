@@ -313,6 +313,7 @@ iframe {
 .ekrany-na-statywie,
 .projektory,
 .obiektywy-xf,
+.obiektywy-xp,
 .rzutniki,
 .mixery,
 .monitory,
@@ -327,7 +328,25 @@ iframe {
     margin-bottom: 50px;
 }
 
+.konwertery-skalery .in,
+.przelaczniki-matrixy .in,
+.dystrybutory .in {
+	width: 20%;
+}
+.obiektywy-xf td,
+.obiektywy-xp td {
+	width: 29%;
+}
+
+.monitory td:first-child,
+.ekrany-ramowe td:first-child,
+.ekrany-na-statywie td:first-child,
+.projektory td:first-child {
+	width: 37%;
+}
+	
+
 .empty-color {
-    height: 5px;
-    background-color: #cb222f;
+    height: 2px;
+    background-color: #5d5d5d;
 }

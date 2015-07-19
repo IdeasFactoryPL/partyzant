@@ -12,6 +12,17 @@ body {
     margin-right: auto;
     margin-top: 40px;
     font-weight: 100;
+    margin-bottom: 60px;
+}
+
+a{
+    color: red;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+a:hover{
+    color: #FFD393;
 }
 
 ul#sprzet {
@@ -30,42 +41,6 @@ ul li:hover #sprzet {
 ul#sprzet li{
     padding-right: 0px;
     display: block;
-}
-
-ul#instrukcje {
-    margin-top: -90px;
-    width: 145px;
-    visibility: hidden;
-    margin-right: 16px;
-    margin-left: auto;
-    background-color: black;
-    padding: 10px 10px 10px 10px;
-    transition: all 0.5s;
-    text-align: right;
-}
-#instrukcja:hover + #instrukcje{
-    visibility: visible;
-}
-
-#instrukcje:hover{
-    visibility: visible;
-}
-
-ul#instrukcje li{
-    padding-right: 0px;
-    display: block;
-    margin-bottom: 4px;
-}
-
-ul#instrukcje a{
-    text-decoration: none;
-    color: #fff;
-    font-size: 17px;
-    transition: color 0.5s;
-}
-
-ul#instrukcje a:hover {
-    color: #da0000;
 }
 
 nav ul li ul li{
@@ -278,6 +253,7 @@ footer {
     float: right;
     width: 65%;
     margin: 20px auto;
+    margin-bottom: 60px;
 }
 
 iframe {
@@ -430,4 +406,30 @@ iframe {
 .sprzet .right_column table tr td{
     padding-left: 5px;
     padding-right: 5px;
+}
+
+/************************Instrukcje************************/
+
+.instrukcja > section > a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.instrukcja > header > h1{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.instrukcja{
+    text-align: center;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.instrukcja > section{
+    width: 500px;
 }

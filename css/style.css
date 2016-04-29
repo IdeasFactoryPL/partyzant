@@ -240,6 +240,7 @@ footer {
     min-height: 90px;
     margin-left: 20px;
     margin-top: 20px;
+    margin-bottom: 60px;
 }
 
 .contact h1 {
@@ -247,6 +248,10 @@ footer {
     margin-bottom: 5px;
     font-size: 20px;
     color: #DA0000;
+}
+
+.contact h2 {
+    font-size: 14pt;
 }
 
 #map {
@@ -331,21 +336,18 @@ iframe {
 
 .wydarzenie{
     margin-top: 30px;
+    vertical-align: top;
+    width: calc((100% / 4) - 3px);
+    height: auto;
+    display: inline-block;
 }
 
-.wydarzenie p{
-    font-size: 30px;
-    color: #DA0000;
-    margin-bottom: 20px;
-    border-bottom: 4px solid #FFF;
-    width: 600px;
-    padding-bottom: 5px;
-    font-weight: 500;
+.wydarzenie div{
+    min-height: 40px;
 }
 
 .wydarzenie img{
-    width: calc((100% / 4) - 3px);
-    height: auto;
+    width: 100%;
 }
 
 /************************Sprzet************************/

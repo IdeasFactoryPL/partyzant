@@ -1,0 +1,20 @@
+[{
+	"title": "EXTRON MVX 44 VGA",
+	"description": "Matrix, monitor/audio switch. 4 wejścia i wyjścia + audio.",
+	"data": [
+		{"key": "SZYBKOŚĆ PRZEŁĄCZNIA", "value": "20 ms"},
+		{"key": "IMPEDANCJA", "value": "75 ohm"},
+		{"key": "MAX.NAPIĘCIE", "value": "1.5V"}
+	],
+	"photo": "2"
+},
+{
+	"title": "KRAMER VS-6YC",
+	"description": "Wysokiej jakości przełącznik matrycowy sygnałów. Mały system montażu video i audio.",
+	"data": [
+		{"key": "PRZEPUSTOWOŚĆ", "value": "37MHz (- 3dB)"},
+		{"key": "SYGNAŁY", "value": "kompozyt, S-Video, audio"},
+		{"key": "WAGA", "value": "2.8kg"}
+	],
+	"photo": "2"
+}]

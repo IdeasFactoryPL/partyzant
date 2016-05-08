@@ -1,0 +1,52 @@
+[{
+	"title": "Monitor Marshall V-R151P 15’’",
+	"description": "Monitor podglądowy LCD z wbudowanym tunerem tv-audio. Można go odchylić o 90 stopni. Stalowe wykonanie i obudowanie w raku czynią ten sprzęt bardzo wytrzymałym.",
+	"data": [
+		{"key": "ROZDZIELCZOŚĆ", "value": "1024 × 768"},
+		{"key": "WEJŚCIA", "value": "kompozyt, VGA"},
+		{"key": "KONFIGURACJA", "value": "NTSC / PAL"}
+	],
+	"photo": "2"
+},
+{
+	"title": "Monitor Samsung SyncMaster 17’’",
+	"description": "Monitor podglądowy z  wbudowanymi dwoma małymi głośnikami. Dzięki zastosowaniu wyjątkowo cienkiego panelu z technologią IPS i podświetleniem LED idealnie ndaje się na konferencyjny podgląd, ekran opisowy.",
+	"data": [
+		{"key": "ROZDZIELCZOŚĆ", "value": "1280 x 1024"},
+		{"key": "FORMAT", "value": "16:10"},
+		{"key": "WEJŚCIA", "value": "kompozyt, VGA"}
+	],
+	"photo": "1"
+},
+{
+	"title": "Samsung UHD 50\"",
+	"description": "Monitor 4K wykorzystywany na konferencjach, bankietach, festiwalach, wystawach, scenografii. Posiadają aluminiowe plecy z zamontowanymi alisgafami o rozstawie 30 cm. Umocować je można bezpośrednio na kracie, bądź widocznym na zdjęciu statywie. Posiadamy również trójkąt do wszelakich mocowań, w  zastosowaniu np. jako podgląd z regulowanym kątem nachylenia i czarną wysłonka. Monitor zapakowany w lekkim, wytrzymałym czarnym kejsie.",
+	"data": [
+		{"key": "ROZDZIELCZOŚĆ", "value": "3 840 x 2 160"},
+		{"key": "WYMIARY", "value": "1127,9 x 618,4 x 69 mm"},
+		{"key": "WEJŚCIA", "value": "4x HDMI, 3x USB, 1x kompozytowe, 1x LAN, 1x jack, 1x audio optyczne, 1x RF"},
+		{"key": "WAGA", "value": "14 kg"}
+	],
+	"photo": "2"
+},
+{
+	"title": "Samsung 65 ‘’ UHD",
+	"description": "Monitory posiadają aluminiowe plecy z zamontowanymi alisgafami o rozstawie 30 cm. Umocować je można bezpośrednio na kracie, bądź widocznym na zdjęciu statywie. Posiadamy również trójkąt do wszelakich mocowań, w  zastosowaniu np. jako podgląd z regulowanym kątem nachylenia i czarną wysłonka. Monitor zapakowany w lekkim, wytrzymałym czarnym kejsie.<br>Monitor  4K wykorzystywany na konferencjach, bankietach, festiwalach, wystawach, przy scenografii. Niezwykłą głębię oraz obraz pełen szczegółów, szybkie połączenie i pracę z urządzeniami mobilnymi i USB,  WI-FI.",
+	"data": [
+		{"key": "ROZDZIELCZOŚĆ", "value": "3 840 x 2 160"},
+		{"key": "WYMIARY", "value": "1463,5 x 844,5 x 64,6 mm"},
+		{"key": "WEJŚCIA", "value": "4x HDMI, 3x USB, 1x kompozytowe, 1x LAN, 1x jack, 1x audio optyczne, 1x RF"},
+		{"key": "WAGA", "value": "25 kg"}
+	],
+	"photo": "2"
+},
+{
+	"title": "Plazma Samsung 42’’",
+	"description": "Plazma wykorzystywana na wystawach, performensach, przy scenografii etc.. Posiadają aluminiowe plecy z zamontowanymi alisgafami o rozstawie 30 cm. Umocować je można bezpośrednio na kracie, bądź widocznym na zdjęciu statywie. Posiadamy również trójkąt do wszelakich mocowań, w  zastosowaniu np. jako podgląd z regulowanym kątem nachylenia i czarną wysłonka. Plazma zawiera zestaw głośników. Zapakowana w lekkim, wytrzymałym czarnym kejsie.",
+	"data": [
+		{"key": "WEJŚCIA", "value": "kompozyt, VGA"},
+		{"key": "ROZDZIELCZOŚCI", "value": "WXGA - 1368 x 768"},
+		{"key": "WAGA", "value": "40kg"}
+	],
+	"photo": "3"
+}]

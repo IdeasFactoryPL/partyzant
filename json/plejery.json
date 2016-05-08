@@ -1,0 +1,21 @@
+[{
+	"title": "Panasonic DVD-VHS",
+	"description": "Player  posiada Tryb Super Long Play, External Link, szybkie kasowanie, Show View, podwójny wyświetlacz o różnych kolorach ułatwiający sterowanie 2 urządzeniami, nagrywanie na magnetowidzie i odtwarzanie z DVD w tym samym czasie, pokaz cyfrowych zdjęć razem z podkładem muzycznym z CD, wejście AV na przednim panelu.<br>Czyta płyty DVD-Video, DVD-RAM, DVD-R, SVCD, VCD oraz pliki JPEG, MP3, WMA.",
+	"data": [
+		{"key": "PRZETWORNIK WIDEO", "value": "54 MHz/10 bitów"},
+		{"key": "WYJŚCIE AUDIO", "value": "DTS/Dolby Digital"},
+		{"key": "TRYB ODTWARZANIA", "value": "Super-VHS-ET (SQPB)"}
+	],
+	"photo": "2"
+},
+{
+	"title": "TVIX HD M-6500A",
+	"description": "Player posiada IN/OUT:  HDMI 1.3 (DD, DTS, wideo 24bit, TrueHD , DTS HD MA , Dolby True HD) komponent, S-Video, USB, koaksjalne, optyczne, port opcjonalnego tunera DVB-T mpeg4 (T-431 lub T441).",
+	"data": [
+		{"key": "FORMATY WIDEO", "value": ".wmv, .avi, .mpg, .vob, .mp4, .asf, .tp, .trp , .IFO, .ISO, .m2t, .m2ts, .mov(H.264)"},
+		{"key": "FORMATY AUDIO", "value": "MP3, WMA, AAC, Ogg, PCM, M4A, AC3, FLAC, WAV"},
+		{"key": "CODEC", "value": "MPEG 1 / 2 / 4, AVI, XVID, WMV9(MP@HL), H.264/ AVC(HD) , VC-1(MP@HL, AP@L3), MKV"},
+		{"key": "MAX ROZDZIELCZOŚĆ", "value": "1920*1080P"}
+	],
+	"photo": "2"
+}]

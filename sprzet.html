@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="pl-PL">
+    <head>
+        <meta charset="utf-8">
+        <title>Partyzant</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="img/favicon.ico" type="image/x-icon" sizes="16x16">
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <meta name="author" content="IdeasFactory.pl Rafał Petryka">
+
+        <!-- Add jQuery library -->
+        <script type="text/javascript" src="fancybox/lib/jquery-1.10.1.min.js"></script>
+
+        <!-- Add fancyBox main JS and CSS files -->
+        <script type="text/javascript" src="fancybox/source/jquery.fancybox.js?v=2.1.5"></script>
+        <link rel="stylesheet" type="text/css" href="fancybox/source/jquery.fancybox.css?v=2.1.5" media="screen" />
+
+         <script type="text/javascript">
+            $(document).ready(function() {
+                $('.fancybox').fancybox();
+            });
+        </script>
+        <!--[if lt IE 9]>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <header role="banner">
+                    <a href="http://facebook.com/PartyzantARTmultimedia" target="_blank"><img src="img/facebook.jpg" alt="Zobacz naszego facebooka!" class="facebook"></a>
+            <hgroup>
+                <img src="img/logo.jpg">
+            </hgroup>
+
+            <nav>
+                <ul role="navigation">
+                    <li><a href="index.html">Strona główna</a></li>
+                    <li><a href="wydarzenia.html">Wydarzenia</a></li>
+                    <li>
+                        <a href="#">Sprzęt</a>
+                        <ul id="sprzet"> 
+                            <li>
+                                <a href="#">Dystrybutory</a>
+                                <ul id="dystrybutory">
+                                    <li>
+                                        <a href="sprzet.html?category=dystrybutory&file_name=vga">VGA</a>
+                                    </li>
+                                    <li>
+                                        <a href="sprzet.html?category=dystrybutory&file_name=video">VIDEO</a>
+                                    </li>
+                                    <li>
+                                        <a href="sprzet.html?category=dystrybutory&file_name=hdmi">HDMI</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">SDI (wkrótce)</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="sprzet.html?file_name=ekrany">Ekrany</a></li>
+                            <li><a href="sprzet.html?file_name=kamery">Kamery</a></li>
+                            <li><a href="sprzet.html?file_name=mixery">Mixery</a></li>
+                            <li><a href="sprzet.html?file_name=monitory">Monitory</a></li>
+                            <li>
+                                <a href="#">Obiektywy</a>
+                                <ul id="obiektywy">
+                                    <li>
+                                        <a href="sprzet.html?category=obiektywy&file_name=xf">XF</a>
+                                    </li>
+                                    <li>
+                                        <a href="sprzet.html?category=obiektywy&file_name=xp">XP</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="sprzet.html?file_name=plejery">Plejery</a></li>
+                            <li><a href="sprzet.html?file_name=projektory">Projektory</a></li>
+                            <li><a href="sprzet.html?file_name=przelaczniki">Przełączniki</a></li>
+                            <li><a href="sprzet.html?file_name=rzutniki">Rzutniki</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="oferta.html">Oferta</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </nav>
+        </header>
+        <footer>
+            <a href="http://ideasfactory.pl" target="_blank" id="ideasfactory">© IdeasFactory.pl</a>
+            <a href="instrukcje.html" id="instrukcja">Pobierz instrukcję PDF</a>
+        </footer>
+        <script type="text/javascript">
+            $( document ).ready(function() {
+                function getSearchParameters() {
+                    var prmstr = window.location.search.substr(1);
+                    return prmstr != null && prmstr != "" ? transformToAssocArray(prmstr) : {};
+                }
+
+                function transformToAssocArray( prmstr ) {
+                    var params = {};
+                    var prmarr = prmstr.split("&");
+                    for ( var i = 0; i < prmarr.length; i++) {
+                        var tmparr = prmarr[i].split("=");
+                        params[tmparr[0]] = tmparr[1];
+                    }
+                    return params;
+                }
+                var params = getSearchParameters();
+                var xhr = new XMLHttpRequest();
+                if (params.category != undefined){
+                    var category = "/" + params.category;
+                }else{
+                    var category = "";
+                }
+                var file_name = params.file_name;
+                xhr.onload = function(){
+                    if(xhr.status = 200){
+                        responseObject = JSON.parse(xhr.responseText);
+                        var newContent = '';
+                        for (i = 0; i < responseObject.length; i++) {
+                            if(responseObject[i].title != undefined){
+                                $("body").append(""+
+                                "<div class='sprzet'>" +
+                                    "<div class='title'>" + responseObject[i].title + "</div>" +
+                                    "<div class='left_column'>" +
+                                        "<div class='big_photo'>" +
+                                            "<a class='fancybox' href='/partyzant/img/sprzet" + category + "/" + file_name + "/" + i + "1.jpg' data-fancybox-group='" + i + "'><img src='/partyzant/img/sprzet" + category + "/" + file_name + "/" + i + "1_1.jpg' alt='' /></a>" +
+                                        "</div>" +
+                                        "<div class = 'small_photos'></div>" +
+                                    "</div>" +
+                                    "<div class='right_column'>" +
+                                        "<table class='data'>" +
+                                        "</table>" +
+                                    "</div>" +
+                                "</div>");
+                                if(responseObject[i].description != undefined){
+                                    $(".sprzet > .right_column")[i].innerHTML = "<p>" + responseObject[i].description + "</p><table class='data'></table>";
+                                }
+                                if (responseObject[i].data != undefined){
+                                    var table = ""
+                                    $.each( responseObject[i].data, function( key, value ) {
+                                      table += "<tr><td>" + value.key + "</td><td><b>" + value.value + "</b></td></tr>"
+                                    });
+                                    $('.data')[i].innerHTML = table;
+                                }
+                                if(responseObject[i].photo > 1){
+                                    var small_photos = "";
+                                    for(x = 2; x <= responseObject[i].photo; x++){
+                                        small_photos = small_photos +
+                                            "<a class='fancybox' href='/partyzant/img/sprzet" + category + "/" + file_name + "/" + i + x + ".jpg' data-fancybox-group='" + i + "'><img src='/partyzant/img/sprzet" + category + "/" + file_name + "/" + i + x + "_1.jpg' alt='' /></a>"
+                                    }
+                                    $('.sprzet > .left_column > .small_photos')[i].innerHTML += small_photos;
+                                }
+                            }else{
+                                $(".sprzet").first().before("<p class='margin-top-40'>" + responseObject[i].description + "</p>")
+                            }    
+                        }
+                    }
+                };
+                xhr.open('GET', '/partyzant/json' + category + '/' + file_name + '.json', true);
+                xhr.send(null);
+            });
+        </script>
+    </body>
+</html>

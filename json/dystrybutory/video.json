@@ -1,0 +1,39 @@
+[{
+	"title": "KRAMER  VM – 3V",
+	"description": "Mały wzmacniacz video; TOOLS. zasilanie 12v DC.",
+	"data": [
+		{"key": "WEJŚCIA", "value": "1-COMPOSITE  BNC"},
+		{"key": "WYJŚCIA", "value": "3-COMPOSITE  BNC"},
+		{"key": "AUDIO", "value": "NIE"},
+		{"key": "PASMO VIDEO", "value": "400 MHZ"},
+		{"key": "REGULACJA VIDEO", "value": "-1,6/+6db.GAIN"},
+		{"key": "WIELKOŚĆ", "value": "12 x 6 x 3 cm"}
+	],
+	"photo": "2"
+},
+{
+	"title": "KRAMER  VM – 10YC",
+	"description": "Wzmacniacz dystrybucyjny. Posiada konwerter video-s-video; podgląd wejścia, przełącznik DC/AC, terminator.",
+	"data": [
+		{"key": "WEJŚCIA", "value": "1-composite BNC,1-s-video"},
+		{"key": "WYJŚCIA", "value": "10-composite BNC,10-s-video"},
+		{"key": "AUDIO", "value": "TAK  - STEREO"},
+		{"key": "PASMO VIDEO", "value": "350MHZ"},
+		{"key": "REGULACJA VIDEO", "value": "-1,2/+1,7db.GAIN  0/+2,3 db, EQ"},
+		{"key": "WIELKOŚĆ", "value": "19” (2U)"}
+	],
+	"photo": "2"
+},
+{
+	"title": "KRAMER  VM – 20ARII",
+	"description": "4 wejściowy wzmacniacz dystrybucyjny z podglądem CV. COMPONENT może być używany jako 1:20, 1X2:10, 4X1:5.",
+	"data": [
+		{"key": "WEJŚCIA", "value": "MULTI MODE  1CV, 1Y/C, 1RGBS"},
+		{"key": "WYJŚCIA", "value": "MULTI MODE  20CV, 10Y/C, 5RGBS"},
+		{"key": "AUDIO", "value": "TAK   STEREO"},
+		{"key": "PASMO VIDEO", "value": "430 MHz"},
+		{"key": "REGULACJA VIDEO", "value": "-1,2/+1,7db.GAIN  0/+2,3 db, EQ"},
+		{"key": "WIELKOŚĆ", "value": "19” (2U)"}
+	],
+	"photo": "2"
+}]

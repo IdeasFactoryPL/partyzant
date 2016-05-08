@@ -1,0 +1,48 @@
+[{
+	"title": "KRAMER  VM – 20ARII",
+	"description": "4 wejściowy wzmacniacz z podglądem CV. COMPONENT może być używany jako 1:20, 1X2:10, 4X1:5.",
+	"data": [
+		{"key": "TYP", "value": "WZMACNIACZ DYSTRYBUCYJNY"},
+		{"key": "WEJŚCIA", "value": "MULTI MODE  1CV, 1Y/C, 1RGBS"},
+		{"key": "WYJŚCIA", "value": "MULTI MODE  20CV, 10Y/C, 5RGBS"},
+		{"key": "AUDIO", "value": "TAK   STEREO"},
+		{"key": "PASMO VIDEO", "value": "430 MHZ"},
+		{"key": "WIELKOŚĆ", "value": "19” (2U)"}
+	],
+	"photo": "2"
+},
+{
+	"title": "KRAMER  VM – 20ARII",
+	"description": "4 wejściowy wzmacniacz z podglądem CV. COMPONENT może być używany jako 1:20, 1X2:10, 4X1:5.",
+	"data": [
+		{"key": "TYP", "value": "WZMACNIACZ DYSTRYBUCYJNY"},
+		{"key": "WEJŚCIA", "value": "MULTI MODE  1CV, 1Y/C, 1RGBS"},
+		{"key": "WYJŚCIA", "value": "MULTI MODE  20CV, 10Y/C, 5RGBS"},
+		{"key": "AUDIO", "value": "TAK   STEREO"},
+		{"key": "PASMO VIDEO", "value": "430 MHZ"},
+		{"key": "WIELKOŚĆ", "value": "19” (2U)"}
+	],
+	"photo": "2"
+},
+{
+	"title": "KRAMER VP-242",
+	"description": "Wysokiej klasy wzmacniacz dystrybucyjny o kompaktowym rozmiarze.. Przełącznikiem komputerowych sygnałów graficznych wideo o rozdzielczościach od VGA do UXGA i wyższych. Kontrola poziomu (wzmocninia) i EQ (wartości szczytowych). Zgodny z HDTV.",
+	"data": [
+		{"key": "WEJŚCIE", "value": "2 x VGA/UXGA"},
+		{"key": "WYJŚCIE", "value": "4 x VGA/UXGA"},
+		{"key": "WYMIARY", "value": "19 x 13.5 x 2.5 cm"},
+		{"key": "WAGA", "value": "0.6 kg"}
+	],
+	"photo": "2"
+},
+{
+	"title": "KRAMER VP-200xl",
+	"description": "Wzmacniacz liniowy z regulacją wzmocnienia i kompensacją długosci  kabla EQ. Zastosowania: systemy dwumonitorowe, systemy prezentacyjne, dystrybucja i kompensacja długości kabla etc..",
+	"data": [
+		{"key": "IN/OUT", "value": "1/2"},
+		{"key": "PASMO PRZENOSZENIA", "value": "405 MHz"},
+		{"key": "WYMIARY", "value": "12 x 7.5 x 2.5 cm"},
+		{"key": "WAGA", "value": "0.25 kg"}
+	],
+	"photo": "2"
+}]

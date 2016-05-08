@@ -1,0 +1,22 @@
+[{
+	"title": "Rzutnik KODAK EKTAPRO 5000",
+	"description": "Rzutnik slajdów z magazynkiem kołowym.",
+	"data": [
+		{"key": "MOC ŻARÓWKI", "value": "300W"},
+		{"key": "ILOŚĆ ŻARÓWEK", "value": "2szt."},
+		{"key": "OBIEKTYW", "value": "60-110mm"},
+		{"key": "WAGA", "value": "13kg"}
+	],
+	"photo": "2"
+},
+{
+	"title": "VIP DIA-300",
+	"description": "Efekty tj.: roto gobo, roto slajd, tarcz slajdów, filtr olejowy. Rzutnik przechowywany w poręcznym solidnym kejsie.",
+	"data": [
+		{"key": "MOC ŻARÓWKI", "value": "300W"},
+		{"key": "ZASILANIE", "value": "200-240 V"},
+		{"key": "WAGA", "value": "7,3 kg"},
+		{"key": "WYMIARY Z PROWADNICAMI ", "value": "307x205x482 mm"}
+	],
+	"photo": "1"
+}]

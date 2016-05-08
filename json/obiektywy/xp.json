@@ -1,0 +1,54 @@
+[{
+	"title": "BUHL OPTICAL  819-Z900",
+	"description": "Obiektyw manualny kompatybilny z projektorami Sanyo XF.",
+	"data": [
+		{"key": "TYP", "value": "TELEOBIEKTYW"},
+		{"key": "PROPORCJE ODDALENIA", "value": "6 - 9"},
+		{"key": "WAGA", "value": "1,6 kg"}
+	],
+	"photo": "1"
+},
+{
+	"title": "SANYO  LNS-T31A",
+	"description": "Obiektyw elektryczny kompatybilny z projektorami Sanyo PLC oraz LP-XP100L, PLV-60K, PLV-70, PLV-75.",
+	"data": [
+		{"key": "TYP", "value": "TELEOBIEKTYW"},
+		{"key": "OGNISKOWA", "value": "64 – 112 mm"},
+		{"key": "PROPORCJE ODDALENIA", "value": "2,31 – 4,2"},
+		{"key": "WAGA", "value": "1,9 kg"}
+	],
+	"photo": "1"
+},
+{
+	"title": "SANYO  LNS-T32",
+	"description": "Obiektyw elektryczny kompatybilny z projektorami Sanyo  PLC-XP…, LP-XP100L, PLV-75.",
+	"data": [
+		{"key": "TYP", "value": "TELEOBIEKTYW"},
+		{"key": "OGNISKOWA", "value": "112 – 155 mm"},
+		{"key": "PROPORCJE ODDALENIA", "value": "4,12 – 5,56"},
+		{"key": "WAGA", "value": "1,5 kg"}
+	],
+	"photo": "1"
+},
+{
+	"title": "SANYO  LNS-W31A",
+	"description": "Obiektyw elektryczny kompatybilny z projektorami Sanyo PLC, PLV oraz LP-XP100L.",
+	"data": [
+		{"key": "TYP", "value": "SZEROKOKĄTNY"},
+		{"key": "OGNISKOWA", "value": "34 – 48 mm"},
+		{"key": "PROPORCJE ODDALENIA", "value": "1,26 – 1,81"},
+		{"key": "WAGA", "value": "1,7 kg"}
+	],
+	"photo": "1"
+},
+{
+	"title": "SANYO  LNS-W32",
+	"description": "Obiektyw manualny kompatybilny z projektorami Sanyo PLC, PLV, LNS-W32.",
+	"data": [
+		{"key": "TYP", "value": "SZEROKOKĄTNY"},
+		{"key": "OGNISKOWA", "value": "22,3 mm"},
+		{"key": "PROPORCJE ODDALENIA", "value": "0,81"},
+		{"key": "WAGA", "value": "1,6 kg"}
+	],
+	"photo": "1"
+}]

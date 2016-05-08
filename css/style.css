@@ -114,6 +114,14 @@ article header h1 {
     font-weight: 500;
 }
 
+.margin-top-20{
+    margin-top: 20px;
+}
+
+.margin-top-40{
+    margin-top: 40px;
+}
+
 .container-left,
 .container-right {
     /*float: left;*/

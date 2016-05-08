@@ -8,6 +8,18 @@
         <link rel="stylesheet" type="text/css" href="css/reset.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <meta name="author" content="IdeasFactory.pl Rafał Petryka">
+
+        <!-- Add jQuery library -->
+        <script type="text/javascript" src="fancybox/lib/jquery-1.10.1.min.js"></script>
+
+        <!-- Add fancyBox main JS and CSS files -->
+        <script type="text/javascript" src="fancybox/source/jquery.fancybox.js?v=2.1.5"></script>
+        <link rel="stylesheet" type="text/css" href="fancybox/source/jquery.fancybox.css?v=2.1.5" media="screen" />
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('.fancybox').fancybox();
+            });
+        </script>
         <!--[if lt IE 9]>
             <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
         <![endif]-->
@@ -27,52 +39,41 @@
                         <a href="#">Sprzęt</a>
                         <ul id="sprzet"> 
                             <li>
-                                <a href="sprzet/ekrany.html">Ekrany</a>
-                            </li>
-                            <li>
-                                <a href="sprzet/monitory.html">Monitory</a>
-                            </li>
-                            <li>
-                                <a href="sprzet/projektory.html">Projektory</a>
-                            </li>
-                            <li>
-                                <a href="sprzet/obiektywy.html">Obiektywy</a>
-                            </li>
-                            <li>
                                 <a href="#">Dystrybutory</a>
                                 <ul id="dystrybutory">
                                     <li>
-                                        <a href="sprzet/dystrybutory/vga.html">VGA</a>
+                                        <a href="sprzet.html?category=dystrybutory&file_name=vga">VGA</a>
                                     </li>
                                     <li>
-                                        <a href="sprzet/dystrybutory/video.html">VIDEO</a>
+                                        <a href="sprzet.html?category=dystrybutory&file_name=video">VIDEO</a>
                                     </li>
                                     <li>
-                                        <a href="sprzet/dystrybutory/hdmi.html">HDMI</a>
+                                        <a href="sprzet.html?category=dystrybutory&file_name=hdmi">HDMI</a>
                                     </li>
                                     <li>
-                                        <a href="sprzet/dystrybutory/sdi.html">SDI</a>
+                                        <a href="#">SDI (wkrótce)</a>
                                     </li>
                                 </ul>
                             </li>
+                            <li><a href="sprzet.html?file_name=ekrany">Ekrany</a></li>
+                            <li><a href="sprzet.html?file_name=kamery">Kamery</a></li>
+                            <li><a href="sprzet.html?file_name=mixery">Mixery</a></li>
+                            <li><a href="sprzet.html?file_name=monitory">Monitory</a></li>
                             <li>
-                                <a href="sprzet/skalery.html">Skalery</a>
+                                <a href="#">Obiektywy</a>
+                                <ul id="obiektywy">
+                                    <li>
+                                        <a href="sprzet.html?category=obiektywy&file_name=xf">XF</a>
+                                    </li>
+                                    <li>
+                                        <a href="sprzet.html?category=obiektywy&file_name=xp">XP</a>
+                                    </li>
+                                </ul>
                             </li>
-                            <li>
-                                <a href="sprzet/separatory.html">Separatory</a>
-                            </li>
-                            <li>
-                                <a href="sprzet/przelaczniki.html">Przełączniki</a>
-                            </li>
-                            <li>
-                                <a href="sprzet/plejery.html">Plejery</a>
-                            </li>
-                            <li>
-                                <a href="sprzet/kamery.html">Kamery</a>
-                            </li>
-                            <li>
-                                <a href="sprzet/przewody.html">Przewody</a>
-                            </li>
+                            <li><a href="sprzet.html?file_name=plejery">Plejery</a></li>
+                            <li><a href="sprzet.html?file_name=projektory">Projektory</a></li>
+                            <li><a href="sprzet.html?file_name=przelaczniki">Przełączniki</a></li>
+                            <li><a href="sprzet.html?file_name=rzutniki">Rzutniki</a></li>
                         </ul>
                     </li>
                     <li><a href="oferta.html">Oferta</a></li>

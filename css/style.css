@@ -122,6 +122,10 @@ article header h1 {
     margin-top: 40px;
 }
 
+.gray{
+    color: gray;
+}
+
 .container-left,
 .container-right {
     /*float: left;*/

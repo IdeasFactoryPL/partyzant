@@ -1,47 +1,4 @@
 [{
-	"title": "BUHL OPTICAL  818MCZ729",
-	"description": "Obiektyw manualny do projektorów serii Sanyo XF oraz Eiki LC-X2U/LC-SX2U.",
-	"data": [
-		{"key": "TYP", "value": "TELEOBIEKTYW"},
-		{"key": "PROPORCJE ODDALENIA", "value": "4,56 – 7,29"},
-		{"key": "WAGA", "value": "2,2 kg"}
-	],
-	"photo": "1"
-},
-{
-	"title": "SANYO  LNS-M01",
-	"description": "Obiektyw elektryczny kompatybilny z projektorami Sanyo XF, WF, EF i UF. Może być używany jako zamiennik - w podobnych modelach- w projektorach Christie i Eiki.",
-	"data": [
-		{"key": "TYP", "value": "TELEOBIEKTYW"},
-		{"key": "OGNISKOWA", "value": "125 – 162 mm"},
-		{"key": "PROPORCJE ODDALENIA", "value": "3,45 – 4,45"},
-		{"key": "WAGA", "value": "1,9 kg"}
-	],
-	"photo": "1"
-},
-{
-	"title": "SANYO LNS-S03",
-	"description": "Obiektyw elektryczny kompatybilny z projektorami Sanyo PLC-XF20/XF30/XF31/XF35/XF40/XF41/XF45/EF30/EF31/UF10/UF15/WF10/HD100/HD150.",
-	"data": [
-		{"key": "TYP", "value": "dłuższy STANDARD"},
-		{"key": "OGNISKOWA", "value": "97 - 0.131 mm"},
-		{"key": "PROPORCJE ODDALENIA", "value": "2,6 – 3,6"},
-		{"key": "WAGA", "value": "3.7kg"}
-	],
-	"photo": "1"
-},
-{
-	"title": "SANYO LNS-T02",
-	"description": "Obiektyw elektryczny kompatybilny z projektorami Sanyo PLC-EF60A , PLC-XF47/XF71 , PLV-HD2000 , PLV-WF20.",
-	"data": [
-		{"key": "TYP", "value": "TELEOBIEKTYW"},
-		{"key": "OGNISKOWA", "value": "158 - 221 mm"},
-		{"key": "PROPORCJE ODDALENIA", "value": "4.40 - 6.13"},
-		{"key": "WAGA", "value": "3.1 kg"}
-	],
-	"photo": "1"
-},
-{
 	"title": "SANYO  LNS-W01",
 	"description": "Obiektyw manualny kompatybilny z projektorami Sanyo PLC-XF30\\XF31\\XF35\\EF30\\EF31\\XF40\\XF41\\XF45\\UF10\\UF15. Pasuje również do Panasonic PT-EX16K.",
 	"data": [
@@ -49,6 +6,17 @@
 		{"key": "OGNISKOWA", "value": "45 mm"},
 		{"key": "PROPORCJE ODDALENIA", "value": "1,19"},
 		{"key": "WAGA", "value": "5,8 kg"}
+	],
+	"photo": "1"
+},
+{
+	"title": "SANYO  LNS-W05",
+	"description": "Obiektyw elektryczny kompatybilny z projektorami Sanyo PLC-EF60A, PLC-XF60A, PLC-XF71, PLV-WF20.",
+	"data": [
+		{"key": "TYP", "value": "SZEROKOKĄTNY"},
+		{"key": "OGNISKOWA", "value": "36 - 50 mm"},
+		{"key": "PROPORCJE ODDALENIA", "value": "0,95 – 1,35"},
+		{"key": "WAGA", "value": "4,8 kg"}
 	],
 	"photo": "1"
 },
@@ -64,13 +32,45 @@
 	"photo": "1"
 },
 {
-	"title": "SANYO  LNS-W05",
-	"description": "Obiektyw elektryczny kompatybilny z projektorami Sanyo PLC-EF60A, PLC-XF60A, PLC-XF71, PLV-WF20.",
+	"title": "SANYO LNS-S03",
+	"description": "Obiektyw elektryczny kompatybilny z projektorami Sanyo PLC-XF20/XF30/XF31/XF35/XF40/XF41/XF45/EF30/EF31/UF10/UF15/WF10/HD100/HD150.",
 	"data": [
-		{"key": "TYP", "value": "SZEROKOKĄTNY"},
-		{"key": "OGNISKOWA", "value": "36 - 50 mm"},
-		{"key": "PROPORCJE ODDALENIA", "value": "0,95 – 1,35"},
-		{"key": "WAGA", "value": "4,8 kg"}
+		{"key": "TYP", "value": "dłuższy STANDARD"},
+		{"key": "OGNISKOWA", "value": "97 - 0.131 mm"},
+		{"key": "PROPORCJE ODDALENIA", "value": "2,6 – 3,6"},
+		{"key": "WAGA", "value": "3.7kg"}
+	],
+	"photo": "1"
+},
+{
+	"title": "SANYO  LNS-M01",
+	"description": "Obiektyw elektryczny kompatybilny z projektorami Sanyo XF, WF, EF i UF. Może być używany jako zamiennik - w podobnych modelach- w projektorach Christie i Eiki.",
+	"data": [
+		{"key": "TYP", "value": "TELEOBIEKTYW"},
+		{"key": "OGNISKOWA", "value": "125 – 162 mm"},
+		{"key": "PROPORCJE ODDALENIA", "value": "3,45 – 4,45"},
+		{"key": "WAGA", "value": "1,9 kg"}
+	],
+	"photo": "1"
+},
+{
+	"title": "SANYO LNS-T02",
+	"description": "Obiektyw elektryczny kompatybilny z projektorami Sanyo PLC-EF60A , PLC-XF47/XF71 , PLV-HD2000 , PLV-WF20.",
+	"data": [
+		{"key": "TYP", "value": "TELEOBIEKTYW"},
+		{"key": "OGNISKOWA", "value": "158 - 221 mm"},
+		{"key": "PROPORCJE ODDALENIA", "value": "4.40 - 6.13"},
+		{"key": "WAGA", "value": "3.1 kg"}
+	],
+	"photo": "1"
+},
+{
+	"title": "BUHL OPTICAL  818MCZ729",
+	"description": "Obiektyw manualny do projektorów serii Sanyo XF oraz Eiki LC-X2U/LC-SX2U.",
+	"data": [
+		{"key": "TYP", "value": "TELEOBIEKTYW"},
+		{"key": "PROPORCJE ODDALENIA", "value": "4,56 – 7,29"},
+		{"key": "WAGA", "value": "2,2 kg"}
 	],
 	"photo": "1"
 }]

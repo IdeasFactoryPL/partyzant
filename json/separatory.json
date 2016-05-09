@@ -1,0 +1,18 @@
+[{
+	"title": "ALLEN AVIONICS AV 1059",
+	"description": "Separator galwaniczny video.<br>Gniazda BNC.",
+	"photo": "1"
+},
+{
+	"title": "ALLEN AVIONICS HEC-5000",
+	"description": "Separator eliminuje zakłócenia napięciowe w trakcie przesyłania sygnału na odległość przy różnych źródłach prądu.",
+	"data": [
+		{"key": "Wejście/Wyjście", "value": "RGBHV, YUV, VIDEO"}
+	],
+	"photo": "1"
+},
+{
+	"title": "FARADAY TECHNOLOGY F MRE 1HB",
+	"description": "Separator eliminuje zakłócenia napięciowe w trakcie przesyłania sygnału na odległość przy różnych źródłach prądu.",
+	"photo": "1"
+}]

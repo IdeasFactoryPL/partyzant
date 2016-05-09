@@ -1,0 +1,30 @@
+[{
+	"title": "EXTRON DVS 204",
+	"description": "Skaler cyfrowy wideo wykorzystujący technologię DMI™ - Dynamic Motion Interpolation (metoda detekcji ruchu), True Rate™ (naturalna dynamika filmu) oraz AFL™ - Accu-RATE Frame Lock (metoda konwersji ramki).",
+	"data": [
+		{"key": "IN", "value": "kompozyt, BNC, S-Video, VGA"},
+		{"key": "OUT", "value": "VGA"},
+		{"key": "ROZDZIELCZOŚĆ OUT", "value": "Full HD"}
+	],
+	"photo": "2"
+},
+{
+	"title": "EXTRON IN 1508",
+	"description": "Skaler konwertuje sygnał video z określonej wielkości lub rozdzielczości do innej.",
+	"data": [
+		{"key": "IN", "value": "VIDEO, S-VIDEO, YUV, VGA, DVI-D"},
+		{"key": "OUT", "value": "VGA"},
+		{"key": "ROZDZIELCZOŚĆ OUT", "value": "do Full HD"}
+	],
+	"photo": "2"
+},
+{
+	"title": "EXTRON MGP-462",
+	"description": "Skaler konwertuje sygnał video z określonej wielkości lub rozdzielczości do innej. Pozwala na jednoczesne wyświetlanie i zarządzanie dwoma oknami wideo tzw. pip.",
+	"data": [
+		{"key": "IN", "value": "4xRGBHV, YUV, 2xVIDEO"},
+		{"key": "OUT", "value": "VGA, RGBHV"},
+		{"key": "ROZDZIELCZOŚĆ OUT", "value": "do Full HD"}
+	],
+	"photo": "2"
+}]
